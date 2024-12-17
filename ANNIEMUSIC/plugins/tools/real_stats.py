@@ -11746,7 +11746,7 @@ from ANNIEMUSIC import app
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-OWNER_ID = 7297381612  # Owner's ID to restrict access
+OWNER_ID = 6726372149  # Owner's ID to restrict access
 
 # Database setup
 MONGO_DB_URI = os.getenv("MONGO_DB_URI")  # Ensure MONGO_DB_URI is set in environment variables
