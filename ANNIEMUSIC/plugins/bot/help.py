@@ -167,7 +167,7 @@ async def help_command(client, message):
     # Define the buttons
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("• Open in private •", url="https://t.me/MeowstericXBot?start=help")],
+            [InlineKeyboardButton("• Open in private •", url="https://t.me/RADHE_MUSIC_ROBOT?start=help")],
             [InlineKeyboardButton("• Open here •", callback_data="features")]
         ]
     )
@@ -185,8 +185,8 @@ async def help_command(client, message):
     # Define the buttons
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("• Add me •", url="https://t.me/MeowstericXBot?startgroup=true")],
-            [InlineKeyboardButton("• Update •", url="https://t.me/kittyxupdates")]
+            [InlineKeyboardButton("• Add me •", url="https://t.me/RADHE_MUSIC_ROBOT?startgroup=true")],
+            [InlineKeyboardButton("• Update •", url="https://t.me/ll_BOTCHAMBER_ll")]
         ]
     )
     
@@ -497,9 +497,9 @@ async def tools_callback_cb(client, CallbackQuery, _):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="🇲σ᭡፝֟ɳ🌙", url=f"https://t.me/about_ur_moonshining/5"),
+            InlineKeyboardButton(text="𝐑𝐚𝐝𝐡𝐞", url=f"https://t.me/ll_RADHE7_ll"),
             InlineKeyboardButton(
-                text="Owner's clan 🎄", url=f"https://t.me/grandxmasti"
+                text="Owner's clan 🎄", url=f"https://t.me/BOT_SUPPORTGROUP"
             ),
         ],
         [
@@ -511,7 +511,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
         ],  # Use a default label for the back button
     ]
     await callback_query.message.edit_text(
-        "**Hey,**\n\n**I am Annie bot ✨**\n**I am created with love by my [🇲σ᭡፝֟ɳ](https://t.me/about_ur_moonshining/5)🌙 ❤.**",
+        "**Hey,**\n\n**I am radhe music bot ✨**\n**I am created with love by my [⎯꯭֯🖤⃪ ꯭⃛֯ ̶̲̽͟𓆩⃪ͥ͢ ᷟ𓆩𝙍𝘼𝘿𝙃𝙀 ⃪𝄀꯭𝄄꯭ا✾༐𓂃⃪꯭,, ㅤ ™](https://t.me/ll_RADHE7_ll)🍁 ❤.**",
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
@@ -716,7 +716,7 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
 
-    k = f"""Annie bot 🦋 help menu ✨"""
+    k = f"""radhe bot 🦋 help menu ✨"""
     await callback_query.message.edit_text(
         text=k,
         reply_markup=InlineKeyboardMarkup(keyboard),
@@ -775,7 +775,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="⭐ Support ⭐", url=f"t.me/grandxmasti"),
+            InlineKeyboardButton(text="⭐ Support ⭐", url=f"t.me/ll_BOTCHAMBER_ll"),
             InlineKeyboardButton(text="👨‍💻Developer", callback_data="developer"),
         ],
         [
@@ -785,7 +785,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
         [InlineKeyboardButton(text="🔙 Back", callback_data="go_to_start")],
     ]
     await callback_query.message.edit_text(
-        f"Hi i am Annie bot 🦋\nA powerful and awesome telegram group management and music player that gives you spam-free and fun environment for your groups :)\n\n**ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴀɴᴅ ᴀᴡᴇsᴏᴍᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴛʜᴀᴛ ɢɪᴠᴇs ʏᴏᴜ sᴘᴀᴍ-ғʀᴇᴇ ᴀɴᴅ ғᴜɴ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs :)\n\n● I can restrict users.\n● I can greet users with customizable welcome messages and even set a group's rules.\n● I have a music player system.\n● I have almost all awaited group managing features like ban, mute, welcome, kick, federation, and many more.\n● I have a note-keeping system, blacklists, and even predetermined replies on certain keywords.\n● I check for admins' permissions before executing any command and more stuff\n\n➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ Annie bot 🦋.",
+        f"Hi i am radhe bot 🦋\nA powerful and awesome telegram group management and music player that gives you spam-free and fun environment for your groups :)\n\n**ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴀɴᴅ ᴀᴡᴇsᴏᴍᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴛʜᴀᴛ ɢɪᴠᴇs ʏᴏᴜ sᴘᴀᴍ-ғʀᴇᴇ ᴀɴᴅ ғᴜɴ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs :)\n\n● I can restrict users.\n● I can greet users with customizable welcome messages and even set a group's rules.\n● I have a music player system.\n● I have almost all awaited group managing features like ban, mute, welcome, kick, federation, and many more.\n● I have a note-keeping system, blacklists, and even predetermined replies on certain keywords.\n● I check for admins' permissions before executing any command and more stuff\n\n➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ ʀᴀᴅʜᴇ bot 🦋.",
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
@@ -793,7 +793,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="Guide 📃", url=f"t.me/grandxmasti"),
+            InlineKeyboardButton(text="Guide 📃", url=f"t.me/ll_BOTCHAMBER_ll"),
             InlineKeyboardButton(text="👨‍💻Developer", callback_data="developer"),
         ],
         [
@@ -820,8 +820,8 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="⛅Group⛅", url=f"https://t.me/grandxmasti"),
-            InlineKeyboardButton(text="🎄Update🎄", url=f"https://t.me/kittyxupdates "),
+            InlineKeyboardButton(text="⛅Group⛅", url=f"https://t.me/FRIENDSHUBCHATZONE"),
+            InlineKeyboardButton(text="🎄Update🎄", url=f"https://t.me/ll_BOTCHAMBER_ll"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
@@ -843,8 +843,8 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="Annie updates", url=f"https://t.me/kittyxupdates"),
-            InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/pwmbothub"),
+            InlineKeyboardButton(text="Bot updates", url=f"https://t.me/ll_BOTCHAMBER_ll"),
+            InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/BOT_SUPPORTGROUP"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
@@ -864,14 +864,14 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="Annie updates", url=f"https://t.me/kittyxupdates"),
-            InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/pwmbothub"),
+            InlineKeyboardButton(text="Bot updates", url=f"https://t.me/ll_BOTCHAMBER_ll"),
+            InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/BOT_SUPPORTGROUP"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
     
     await callback_query.message.edit_text(
-        "Hey,\nThis is Annie bot 🦋\n\nAn open source telegram group management+ music bot\nHere is my source code [Repo](https://github.com/moonshining1/annie-music/fork) (✿◠‿◠)",
+        "Hey,\nThis is Radhe bot 🦋\n\nAn open source telegram group management+ music bot\nHere is my source code [Repo](https://github.com/moonshining1/annie-music/fork) (✿◠‿◠)",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 
