@@ -60,10 +60,10 @@ async def init():
     await userbot.start()
     await ANNIE.start()
     await ANNIE.decorators()
-    LOGGER("ANNIEMUSIC").info("ANNIEMUSIC STARTED SUCCESSFULLY 🕊️")
+    LOGGER("ANNIEMUSIC").info("RADHE MUSIC STARTED SUCCESSFULLY 🕊️")
     await idle()
 
 
 if __name__ == "__main__":
     asyncio.get_event_loop_policy().get_event_loop().run_until_complete(init())
-    LOGGER("ANNIEMUSIC").info("Stopping ANNIEMUSIC! GoodBye")
+    LOGGER("ANNIEMUSIC").info("Stopping RADHE MUSIC! GoodBye")
