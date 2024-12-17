@@ -77,7 +77,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7839106251").split())
+    map(int, getenv("OWNER_ID", "6726372149").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -90,7 +90,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Moonshining1/ANNIE-MUSIC",
+    "https://github.com/Theradhe/ANNIE-MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -141,7 +141,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Moonshining1/ANNIE-MUSIC")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Theradhe/ANNIE-MUSIC")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
